@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #f4f4f4;
+}
+
+.navbar {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a {
+    color: #fff;
+    margin-right: 15px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.social-icons a:hover,
+.search-icon a:hover {
+    color: #ccc;
+}
+
+.main-header {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.main-header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.main-header .highlight {
+    background-color: black;
+    color: #fff;
+    padding: 2px 8px;
+    border-radius: 4px;
+}
+
+.banner {
+    background-image: url('https://www.w3schools.com/w3images/jane.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 150vh;
+    display: flex;
+    padding-left: 40px;
+    color: #fff;
+    align-items: center;
+    position: relative;
+}
+
+.banner-text h2 {
+    font-size: 40px;
+}
+
+.banner-text h1 {
+    font-size: 60px;
+    margin-top: 10px;
+}
+
+.banner-text p {
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.banner-text button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #f4f4f4;
+    color: #000;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.banner-text button:hover {
+    background-color: gray;
+}
